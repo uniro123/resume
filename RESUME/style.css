@@ -38,7 +38,11 @@
 }
 
 .intro-box .knowme {
-    margin: 25px 0px 70px 0px;
+    margin: 40px 0px 70px 40px;
+}
+
+.knowme .contact {
+    margin: 40px 0px 20px 0px;
 }
 
 .intro-box h4 {
@@ -60,13 +64,13 @@
 }
 
 .intro-box .line2 {
-    border-left: 3px solid #FF8906;
+    border-left: 1px solid #FF8906;
     height: 500px;
-    margin: 50px;
+    margin: 65px 50px 50px 50px;
 }
 
 .intro-box .subject {
-    margin: 25px 0px 70px 0px;
+    margin: 40px 0px 70px -40px;
 }
 
 .intro-box h6 {
@@ -106,4 +110,9 @@
     margin: 12px 0px 15px -40px;
     font-weight: 500;
     font-size: 16px;
+}
+
+.subject h6 {
+    color: #FFFFFE;
+    margin: 15px 0px 20px 0px;
 }
