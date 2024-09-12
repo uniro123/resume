@@ -14,7 +14,7 @@
 .box img {
     border-radius: 50%;
     width: 75%;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 70px;
 }
 
 .line {
@@ -122,7 +122,6 @@
 @media screen and (max-width: 550px) {
     .box {
         border-radius: 50px 10px;
-        width: 362px;
         height: 130px;
     }
 
@@ -130,7 +129,7 @@
         border-radius: 50%;
         width: 101px;
         height: 101px;
-        margin: auto;
+        margin: 0px 0px 0px 10px;
     }
 
     .line {
@@ -150,5 +149,72 @@
     .box p {
         font-size: 10px;
         margin: 0px;
+    }
+
+    .intro-box h4 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #FF8906;
+    }
+    
+    .intro-box p {
+        font-size: 11px;
+        color: #FFFFFE;
+        font-weight: 400;
+    }
+    
+    .intro-box p i {
+        color: #FF8906;
+        width: 25px;
+        height: 30px;
+        font-size: 17px;
+    }
+
+    .intro-box .knowme {
+        margin: 50px 0px 30px 0px;
+    }
+
+    .knowme .about {
+        margin: -30px 0px 20px 0px;
+    }
+
+    .knowme .contact {
+        margin: 30px 0px 20px 0px;
+    }
+
+    .intro-box .line2 {
+        border-top: 1px solid #FF8906;
+        border-left: 0px;
+        height: 50px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .intro-box .subject {
+        margin: auto;
+    }
+
+    .subject h6 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .col-9 p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 12px -20px 15px -40px;
+        font-weight: 500;
+        font-size: 11px;
+    }
+
+    .subject {
+        padding-bottom: 60px;
+    }
+
+    .intro-box .sub-box {
+        background-color: #FF8906;
+        height: 60px;
+        width: 70%;
+        border-radius: 10px;
     }
 }
